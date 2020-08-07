@@ -1,0 +1,39 @@
+body {
+    background-color:coral;
+    height: 100vh;
+    width: 100vw;
+    /* Male aca no estaba segura si correspondia el width o no*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    body {
+        background-color:lightpink;
+    }
+}
+
+
+
